@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Overall background color */
+}
+
+/* Weather Container Styles */
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* Center align vertically */
+  padding: 50px;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #1976d2; /* Blue color for the left background */
+  background: linear-gradient(to bottom right, #1976d2, #4c8cde); /* Gradient effect */
+  position: relative; /* To position elements inside */
+}
+
+/* Weather Details (Blue Card) */
+.weather-details {
+  width: 100%; /* Full width to make it blend */
+  margin: 0; /* No margin to blend with the background */
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: none; /* Remove shadow for blending effect */
+  text-align: left;
+  background: none; /* No background to merge with the background */
+  position: absolute; /* To allow positioning */
+  top: 50px; /* Position it within the container */
+  left: 50px; /* Slight offset from the left */
+}
+
+/* Text Styles for Weather Details */
+.weather-details h2, .weather-details h3, .weather-details h1 {
+  margin: 10px 0;
+  padding: 0;
+  color: #ffffff; /* Keep text color white for contrast */
+}
+
+.weather-details h1 {
+  font-size: 3rem; /* Larger font size for temperature */
+}
+
+/* Forecast Container (Black Card) */
+.forecast-container {
+  background-color: #1e1e1e; /* Dark background */
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  position: absolute; /* Absolute positioning for better control */
+  top: 50px; /* Position it slightly below the blue card */
+  right: 50px; /* Align to the right side */
+}
+
+.forecast-container h4 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ffecb3; /* Soft yellow for text */
+}
+
+.forecast-day {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #3a3a3a; /* Border for separation */
+}
+
+.forecast-day:last-child {
+  border-bottom: none; /* Remove bottom border for last item */
+}
+
+/* City Input Styling */
+.city-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: white; /* Add background for visibility */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 300px;
+  position: relative; /* To position it properly */
+  z-index: 10; /* Higher z-index to appear on top */
+  
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  width: 100%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ff8a65; /* Light orange */
+}
+
+.app-header h6 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.info-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0e58a1;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.info-button:hover {
+  background-color: #155a9a;
+}
+
+/* Info Modal Styles */
+.info-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.info-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.info-content h2 {
+  margin-top: 0;
+  color: #1976d2;
+}
+
+.info-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.info-content a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info-content button {
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-content button:hover {
+  background-color: #155a9a;
+}
