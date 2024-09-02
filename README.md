@@ -16,6 +16,8 @@ The app is built using React for the frontend and Flask for the backend, utilizi
 
 ![Weather App Screenshot](./demo/weather-app.png)
 
+[Weather App video demo link](./demo/weather-app.webm)
+
 ## Tech Stack
 
 - **Frontend**: React, Axios, CSS
@@ -49,7 +51,7 @@ cd weather-app/backend
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+.\venv\Scripts\activate   # On MAC, use `source venv/bin/activate`
 ```
 3. Install the required dependencies using `requirements.txt`:
 
