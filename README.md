@@ -14,7 +14,7 @@ The app is built using React for the frontend and Flask for the backend, utilizi
 
 ## Demo
 
-![Weather App Screenshot](./demo/weather-app.png)
+![Weather App Screenshot](./demo/weather-app.PNG)
 
 [Weather App video demo link](./demo/weather-app.webm)
 
