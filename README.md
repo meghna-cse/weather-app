@@ -1,8 +1,7 @@
 
 # weather-app 🌦️
 
-Created as part of technical assessment for [PM Accelerator](https://www.linkedin.com/school/productmanagerinterview/about/).
-This project is a simple yet dynamic weather application that provides real-time weather updates and a 5-day forecast for any city in the world. It also allows users to get weather updates based on their current location.
+Welcome to the Weather App! This project is a simple yet dynamic weather application that provides real-time weather updates and a 5-day forecast for any city in the world. It also allows users to get weather updates based on their current location.
 
 The app is built using React for the frontend and Flask for the backend, utilizing the OpenWeatherMap API for fetching weather data.
 
@@ -14,9 +13,7 @@ The app is built using React for the frontend and Flask for the backend, utilizi
 
 ## Demo
 
-![Weather App Screenshot](./demo/weather-app.PNG)
-
-[Weather App video demo link](https://youtu.be/aF8RM-CJCz0)
+[Weather App video demo link](https://youtu.be/yFf-ORlJ3uM)
 
 ## Tech Stack
 
